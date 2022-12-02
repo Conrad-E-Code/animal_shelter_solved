@@ -8,9 +8,6 @@ class Pet < ActiveRecord::Base
         Pet.find_by "age =?", Pet.highest_age
     end
 
-    def
-
-    end
     def self.average_age
         # ages = Pet.all.map do |pet|
         #     pet.age
@@ -29,5 +26,6 @@ class Pet < ActiveRecord::Base
     def in_dog_years
         if self.species.downcase =="dog"
         self.age * 5
+        end
     end
 end

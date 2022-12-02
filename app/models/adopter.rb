@@ -13,7 +13,7 @@ def adopt pet
     end
 end
 
-def fav pet
+def fav_pet
     # species = self.pets.map do |p|
     #     p.species
     # end
@@ -27,6 +27,5 @@ def fav pet
     #     .max_by {|species| species.count}
     #     .first
 
-    
 end
 end
